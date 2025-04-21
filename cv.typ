@@ -10,7 +10,8 @@
     linespacing: 6pt,
     showAddress: true, // true/false Show address in contact info
     showNumber: true,  // true/false Show phone number in contact info
-    headingsmallcaps: false
+    headingsmallcaps: false,
+    sectionspacing: 12pt, // Space between sections
 )
 
 // setrules and showrules can be overridden by re-declaring it here
