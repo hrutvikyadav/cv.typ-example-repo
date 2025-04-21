@@ -1,47 +1,47 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/cv.typ/main/cv.typ.schema.json
 
 personal:
-  name: John Smith L. Doe
-  email: johndoe@example.com
-  phone: (+1) 987 6543 210
-  url: https://johndoe.com
+  name: Hrutvik Yadav
+  email: hrutvikyadav@gmail.com
+  phone: (+91) 7744908656
+  url: https://hrutvikyadav.com
   location:
-    city: New York
-    region: New York
-    postalCode: 1234
-    country: United States of America
+    city: Pune
+    region: Maharashtra
+    postalCode: 411052
+    country: India
   profiles:
-    - network: LinkedIn
-      username: John Doe
-      url: https://linkedin.com/in/johndoe
+    # - network: LinkedIn
+    #   username: John Doe
+    #   url: https://linkedin.com/in/johndoe
     - network: GitHub
-      username: johndoe
-      url: https://github.com/johndoe
+      username: hrutvikyadav
+      url: https://github.com/hrutvikyadav
 
 work:
-  - organization: X Company
-    url: https://example.com
+  - organization: Arbin Insruments India Pvt. Ltd.
+    url: https://www.arbin.com/arbin-instruments-establishes-office-in-pune-india/ 
     location: Remote / New York, New York
     positions:
-      - position: Senior Developer
-        startDate: 2021-08-01
+      - position: Software Developer
+        startDate: 2022-08-08
         endDate: "present"
         highlights:
           - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
           - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
           - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
-  - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
-    url: https://example.com
-    location: Pasadena, California
-    positions:
-      - position: Senior Developer
-        startDate: 2021-08-01
-        endDate: 2023-05-31
-        highlights:
-          - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
-          - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-          - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
-
+  # - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
+  #   url: https://example.com
+  #   location: Pasadena, California
+  #   positions:
+  #     - position: Senior Developer
+  #       startDate: 2021-08-01
+  #       endDate: 2023-05-31
+  #       highlights:
+  #         - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
+  #         - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+  #         - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
+  #
 education:
   - institution: Open University
     url: https://example.com/
