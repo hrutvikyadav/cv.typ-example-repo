@@ -21,6 +21,9 @@
 //      doc
 // }
 
+#import "@preview/rose-pine:0.2.0": apply, rose-pine-dawn
+#show: apply(variant: "rose-pine-dawn")
+
 #let customrules(doc) = {
     // Add custom document style rules here
 
