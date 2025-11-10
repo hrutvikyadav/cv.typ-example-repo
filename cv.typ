@@ -7,11 +7,11 @@
     headingfont: "Crimson Pro", // Set font for headings
     bodyfont: "Tinos",   // Set font for body
     fontsize: 10pt, // 10pt, 11pt, 12pt
-    linespacing: 6pt,
+    linespacing: 5pt,
     showAddress: true, // true/false Show address in contact info
     showNumber: true,  // true/false Show phone number in contact info
     headingsmallcaps: false,
-    sectionspacing: 12pt, // Space between sections
+    sectionspacing: 7pt, // Space between sections
 )
 
 // setrules and showrules can be overridden by re-declaring it here
@@ -22,7 +22,7 @@
 // }
 
 #import "@preview/rose-pine:0.2.0": apply, rose-pine-dawn
-#show: apply(variant: "rose-pine")
+#show: apply(variant: "rose-pine-dawn")
 
 #let customrules(doc) = {
     // Add custom document style rules here
@@ -56,4 +56,4 @@
 #cvpublications(cvdata)
 #cvreferences(cvdata)
 
-#endnote
+// #endnote
