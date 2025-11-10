@@ -13,7 +13,7 @@ personal:
   profiles:
     # - network: LinkedIn
     #   username: John Doe
-    #   url: https://linkedin.com/in/johndoe
+    #   url: https://linkedin.com/in/hrutvikyadav
     - network: GitHub
       username: hrutvikyadav
       url: https://github.com/hrutvikyadav
@@ -27,12 +27,10 @@ work:
         startDate: 2022-08-08
         endDate: "present"
         highlights:
-          - Led development for a web application (React + Tauri) that allows users to monitor test data and control battery testing equipment, resulting in a 30% increase in user engagement.
-          - Led DevOps automation and release planning for the web application using Github Actions, reducing deployment time and wait time for QA testing.
-          - Diagnosed complex cross-platform bugs in ASP.NET services, collaborating across teams to deliver robust fixes.
-          - Integrated auxillary devices (CAN, Voltage, Temperature) into the web application, enabling real-time monitoring and control of BMS
-          - Proposed implementation of OpenTelemetry-based observability stack to improve MTTR and system insight.
-          - Collaborated with teams for feature planning, proposals, testing approach and documentation
+          - Led development for a web application (ASP.Net + React + Tauri) exposing REST API's to monitor test data, control battery testing equipment.
+          - Integrated auxillary devices (CAN, Voltage, Temperature) firmware with ASP.NET backend TCP/IP sockets, enabling real-time monitoring and control of BMS.
+          - Architected and deployed full-stack production infrastructure for EOL testing application- configured Nginx reverse proxy with HTTPS/SSL for frontend, implemented PWA with service worker caching, and resolved cross-platform Tauri compatibility issues enabling Ubuntu releases.
+          - Engineered automated deployment pipelines using Inno Setup for Windows and Bash scripting for Linux, managing systemd service configuration for .NET backend auto-startup on Linux and PowerShell startup scripts on Windows, eliminating manual deployment overhead across platforms.
   # - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
   #   url: https://example.com
   #   location: Pasadena, California
@@ -149,10 +147,9 @@ projects:
     startDate: 2023-01-07
     endDate: Present
     highlights:
-      - Led debugging and reverse engineering efforts for cross-platform ASP.NET services interfacing with custom socket-based protocols.
-      - Collaborated with backend teams to identify root causes of failures and improve fault-tolerance of the communication layer.
-      - Contributed to CAN/UDS integration, enabling control of Battery Management Systems (BMS).
-      - Proposed and integration of observability stack using OpenTelemetry + LGTM for proactive issue resolution.
+      - Led debugging and reverse engineering efforts for cross-platform ASP.NET services interfacing with firmware via custom socket based protocols.
+      - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of observability stack (OpenTelemetry + LGTM) for better MTTR.
+      - Contributed to CAN/UDS integration for BMS communication. Implemented kafka consumer in .NET(consumes sampled data from queue).
 
   - name: "Notification service MVP in golang"
     # url: https://example.com/
@@ -178,10 +175,9 @@ skills:
       - sockets, TCP/IP, HTTP
       - C#, ASP.NET
       - Javascript/Typescript
-      - SQL, PostgreSQL, Database normalization
+      - SQL, PostgreSQL
       - golang
       - nginx
-      - Typst
   - category: Embedded Systems
     skills:
       - CAN, UDS protocol
@@ -223,11 +219,11 @@ languages:
   - language: Hindi
     fluency: Native proficiency
 
-interests:
-  - Video Games
-  - Anime
-  - Reading Non-fiction
-  - Music
+# interests:
+#   - Video Games
+#   - Anime
+#   - Reading Non-fiction
+#   - Music
 
 references:
   # You can comment out the entries below if you don't have any references
