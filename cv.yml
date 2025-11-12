@@ -139,17 +139,17 @@ projects:
     highlights:
       - Spearheaded development, testing, and DevOps pipelines for the application using React, Tauri, and Typescript.
       - Led decisions around feature implementation, testing strategy (unit/mocking), and CI/CD workflows.
-      - Integrated CAN signals monitoring
-      - Planned API integrations and ensured modular design for future extensibility.
+      - Integrated CAN signals monitoring. Planned API integrations and ensured modular design for future extensibility.
 
   - name: "ASP.NET Core backend services."
     affiliation: Arbin Instruments India Pvt. Ltd.
     startDate: 2023-01-07
     endDate: Present
     highlights:
-      - Led debugging and reverse engineering efforts for cross-platform ASP.NET services interfacing with firmware via custom socket based protocols.
-      - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of observability stack (OpenTelemetry + LGTM) for better MTTR.
-      - Contributed to CAN/UDS integration for BMS communication. Implemented kafka consumer in .NET(consumes sampled data from queue).
+      - Contributed to cross-platform ASP.NET services interfacing with firmware via custom socket based protocols.
+      - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of OpenTelemetry+LGTM for better MTTR.
+      - Contributed to CAN/UDS integration for BMS communication. Implemented kafka consumer to consume sampled data from queue.
+      - Built end-to-end test harness for battery testing platform (React/ASP.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
 
   - name: "Notification service MVP in golang"
     # url: https://example.com/
