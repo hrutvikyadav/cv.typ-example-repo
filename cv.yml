@@ -11,9 +11,9 @@ personal:
     postalCode: 411052
     country: India
   profiles:
-    # - network: LinkedIn
-    #   username: John Doe
-    #   url: https://linkedin.com/in/hrutvikyadav
+    - network: LinkedIn
+      username: Hrutvik Yadav
+      url: https://linkedin.com/in/hrutvikyadav
     - network: GitHub
       username: hrutvikyadav
       url: https://github.com/hrutvikyadav
