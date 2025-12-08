@@ -151,6 +151,15 @@ projects:
       - Contributed to CAN/UDS integration for BMS communication. Implemented kafka consumer to consume sampled data from queue.
       - Built end-to-end test harness for battery testing platform (React/ASP.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
 
+  - name: "Firmware for Battery test device, Userspace application to communicate with firmware device"
+    affiliation: Arbin Instruments India Pvt. Ltd.
+    startDate: 2022-11-15
+    endDate: Present
+    highlights:
+      - Contributed to C++ firmware code running on STM32 Cortex microcontroller.
+      - Implemented state machines, co-operative scheduling between multiple threads. Implemented TCP servers to communicate packets on TCP/IP socket and Ethernet parser to parse incoming packets, assemble outgoing packets.
+      - Contributed to linux userspace application running on Cortex-A7 processor that interfaces with the iv firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
+
   - name: "Notification service MVP in golang"
     # url: https://example.com/
     affiliation: Arbin Instruments India Pvt. Ltd. 
@@ -161,12 +170,12 @@ projects:
       - Implemented autoscaling logic and modular design to support future email/SMS/daemon integrations.
 
 skills:
-  - category: Soft Skills
-    skills:
-      - Communication
-      - Critical Thinking
-      - Leadership
-      - Technical Writing
+  # - category: Soft Skills
+  #   skills:
+  #     - Communication
+  #     - Critical Thinking
+  #     - Leadership
+  #     - Technical Writing
   - category: Programming
     skills:
       - bash, zsh
@@ -178,6 +187,11 @@ skills:
       - SQL, PostgreSQL
       - golang
       - nginx
+      - Git, Github
+      - Docker
+      - Neovim
+      - Visual Studio Code
+      - Keil
   - category: Embedded Systems
     skills:
       - CAN, UDS protocol
@@ -194,13 +208,8 @@ skills:
       - Vite
       - Vitest
       - Playwright
-  - category: Tools
-    skills:
-      - Git, Github
-      - Docker
-      - Neovim
-      - Visual Studio Code
-      - Keil
+  # - category: Tools
+  #   skills:
   # - category: BI & Data Analytics
   #   skills:
   #     - Microsoft Excel

@@ -6,12 +6,12 @@
 #let uservars = (
     headingfont: "Crimson Pro", // Set font for headings
     bodyfont: "Tinos",   // Set font for body
-    fontsize: 10pt, // 10pt, 11pt, 12pt
-    linespacing: 5pt,
+    fontsize: 9.5pt, // 10pt, 11pt, 12pt
+    linespacing: 4pt,
     showAddress: true, // true/false Show address in contact info
     showNumber: true,  // true/false Show phone number in contact info
     headingsmallcaps: false,
-    sectionspacing: 5pt, // Space between sections
+    sectionspacing: 4pt, // Space between sections
 )
 
 // setrules and showrules can be overridden by re-declaring it here
