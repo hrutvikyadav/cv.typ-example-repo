@@ -18,8 +18,10 @@ personal:
       username: hrutvikyadav
       url: https://github.com/hrutvikyadav
 
+summary: "Full-stack engineer specializing in embedded systems integration with modern web technologies. Expertise in .NET 8 RESTful Web APIs, microservices, Entity Framework Core, PostgreSQL, React/TypeScript, Redux, C/C++ firmware (STM32, RTOS), and cloud infrastructure (Docker, Azure, CI/CD). Delivered production battery testing platforms for automotive manufacturers featuring real-time hardware communication, data acquisition services, and cross-platform deployment."
+
 work:
-  - organization: Arbin Insruments India Pvt. Ltd.
+  - organization: Arbin Instruments India Pvt. Ltd.
     url: https://www.arbin.com/arbin-instruments-establishes-office-in-pune-india/ 
     location: Pune, India
     positions:
@@ -27,10 +29,33 @@ work:
         startDate: 2022-08-08
         endDate: "present"
         highlights:
-          - Led development for a web application (ASP.Net + React + Tauri) exposing REST API's to monitor test data, control battery testing equipment.
-          - Integrated auxillary devices (CAN, Voltage, Temperature) firmware with ASP.NET backend TCP/IP sockets, enabling real-time monitoring and control of BMS.
-          - Architected and deployed full-stack production infrastructure for EOL testing application- configured Nginx reverse proxy with HTTPS/SSL for frontend, implemented PWA with service worker caching, and resolved cross-platform Tauri compatibility issues enabling Ubuntu releases.
-          - Engineered automated deployment pipelines using Inno Setup for Windows and Bash scripting for Linux, managing systemd service configuration for .NET backend auto-startup on Linux and PowerShell startup scripts on Windows, eliminating manual deployment overhead across platforms.
+          - Practiced Agile methodologies including sprint planning, daily standups, and retrospectives; tracked development progress using Jira
+          - Lead development of real-time monitoring dashboards using React, Typescript, Tauri. Peer reviewed code.
+          - Designed React application architecture using modern React patterns like Layout pattern, custom hooks, memoization, lazy loading, context management
+          - Built complex dashboard visualizations for test data; implemented progress tracking, live graphs, status monitoring
+          - Developed a text editor react component using react-ace, with custom completions to assist users with writing arbin's custom scripting language, improving user engagement by 30%
+          - Implemented non-blocking expression validation with real-time error detection using ncalc.js library
+          - Implemented custom caching mechanism to support expression validation for large number of custom variables defined in arbin's scripting language.
+          - Used popular open source solutions; Ant Design, Tailwind CSS for styling, React Router for client side routing, Redux for state management, Redux Toolkit for web api integration.
+          - Developed reports visualization for huge test data in pagination components. Implemented huge test data report generation functionality using Azure functions, so that user can perform operations in a non blocking manner. Implemented data archival using Azure functions that run on schedule to cleanup space.
+          - Built unit test suite with vitest and react-testing-library achieving 75% code coverage.
+          - Built CI/CD pipelines from scratch, automated unit testing, self hosted deployment, Nginx configuration with TLS/SSL
+          - Managed production deployments for solutions used by major automotive manufacturers in India
+          - Managed Azure cloud deployments using Docker Compose for containerized microservices
+          - Provisioned cloud infrastructure with Terraform for global accessibility and scalability
+          - Developed cross-platform .NET 8 services interfacing with firmware via custom socket based protocols.
+          - Designed event-driven architecture for .NET data processing service, improving accuracy by 40% for high-rate sampled data
+          - Designed RESTful web APIs with JWT authentication, comprehensive error handling, and structured logging for client applications - Implemented event-driven architecture with Kafka event sourcing replicated across multiple clusters
+          - Implemented data persistence layer using Entity Framework ORM with PostgreSQL—designed schema using code-first approach with data annotations
+          - Achieved Performance optimization, benchmarked caching strategies using BenchmarkDotNet, evaluated Redis vs in-memory solutions, implemented optimized concurrent dictionary caching based on profiling results.
+          - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of OpenTelemetry+LGTM for better MTTR.
+          - Contributed to CAN/UDS integration for BMS communication. Implemented Kafka consumer to consume sampled data from queue. Implemented data ingestion pipeline writing queued data to PostgreSQL entities.
+          - Built end-to-end integration test harness for battery testing platform (React/.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
+          - Contributed to C++ firmware code running on STM32 Cortex microcontroller.
+          - Implemented state machines, co-operative scheduling between multiple threads. Implemented TCP servers to communicate packets on TCP/IP socket and Ethernet parser to parse incoming packets, assemble outgoing packets.
+          - Developed Linux userspace application for Cortex-A7 processor that interfaces with the IV(current-voltage) firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
+          - Designed and developed a lightweight, scalable notification system that polls service running as a docker container, spawns workers based on queue depth, and publish messages via CLI interface. Implemented autoscaling logic depending on number of consumer-- email daemon integrations.
+
   # - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
   #   url: https://example.com
   #   location: Pasadena, California
@@ -62,15 +87,16 @@ education:
     # highlights:
     #   - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
     #   - "*Activities*: Debating, Chess, Cricket"
-  - institution: Government Polytechnic
-    url: https://gppune.ac.in/userindex.php
-    area: Electronics and Telecommunications
-    studyType: Diploma
-    startDate: 2016-07-01
-    endDate: 2019-06-30
-    location: Pune, Maharashtra
-    honors:
-      - Third Price in Dipex competition
+
+  # - institution: Government Polytechnic
+  #   url: https://gppune.ac.in/userindex.php
+  #   area: Electronics and Telecommunications
+  #   studyType: Diploma
+  #   startDate: 2016-07-01
+  #   endDate: 2019-06-30
+  #   location: Pune, Maharashtra
+  #   honors:
+  #     - Third Price in Dipex competition
     # courses:
     #   - Algorithms & Data Structures
     #   - Applications in Quantitative Finance
@@ -132,24 +158,43 @@ education:
 #     url: https://example.com
 
 projects:
-  - name: "React + Tauri client application for battery testing."
+  - name: "Dashboard client application integrated with RESTful api service."
     affiliation: Arbin Instruments India Pvt. Ltd.
-    startDate: 2023-06-08
+    startDate: 2022-11-15
     endDate: Present
     highlights:
-      - Spearheaded development, testing, and DevOps pipelines for the application using React, Tauri, and Typescript.
-      - Led decisions around feature implementation, testing strategy (unit/mocking), and CI/CD workflows.
-      - Integrated CAN signals monitoring. Planned API integrations and ensured modular design for future extensibility.
+      - Lead development of real-time monitoring dashboards using React, Typescript, Tauri. Peer reviewed code.
+      - Built complex dashboard visualizations for test data-- progress tracking, live graphs, status monitoring
+      - Implemented modern React patterns-- custom hooks, memoization, lazy loading, context management
+      - Developed a text editor react component using react-ace, with custom completions to assist users with writing arbin's custom scripting language. Implemented intelligent functionality of fast expression validation, error detection, instant feedback using ncalc.js library without blocking user input. Implemented custom caching mechanism to support expression validation for large number of custom variables defined in arbin's scripting language.
+      - Used popular open source solutions-- Ant Design, Tailwind CSS, React Router, Redux for state management, Redux Toolkit for api integration. Developed reports visualization for huge test data in pagination components. Implemented huge test data report generation functionality using Azure functions, so that user can perform operations in a non blocking manner. Implemented data archival using Azure functions that run on schedule to cleanup space.
 
-  - name: "ASP.NET Core backend services."
+  - name: "DevOps & Infrastructure"
     affiliation: Arbin Instruments India Pvt. Ltd.
-    startDate: 2023-01-07
+    startDate: 2023-07-08
     endDate: Present
     highlights:
-      - Contributed to cross-platform ASP.NET services interfacing with firmware via custom socket based protocols.
+      - Built CI/CD pipelines from scratch-- automated testing → self hosted deployment → Nginx configuration with TLS/SSL
+      - Managed production deployments for solutions used by major automotive manufacturers in India
+      - Managed Azure cloud deployments using Docker Compose for containerized microservices
+      - Provisioned cloud infrastructure with Terraform for global accessibility and scalability
+
+  - name: ".NET backend services."
+    affiliation: Arbin Instruments India Pvt. Ltd.
+    startDate: 2022-09-07
+    endDate: Present
+    highlights:
+      - Developed cross-platform .NET services interfacing with firmware via custom socket based protocols.
+      - Designed RESTful APIs consumed by  client applications with JWT authentication with proper error handling and logging. Implemented event-driven architecture-- event sourcing to Kafka queue, replicated across multiple clusters
+      - Implemented data persistence layer using Entity Framework ORM with PostgreSQL—designed schema using code-first approach with data annotations
+      - Performance optimization-- benchmarked caching strategies using BenchmarkDotNet, evaluated Redis vs in-memory solutions, implemented optimized concurrent dictionary caching based on profiling results.
       - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of OpenTelemetry+LGTM for better MTTR.
-      - Contributed to CAN/UDS integration for BMS communication. Implemented kafka consumer to consume sampled data from queue.
-      - Built end-to-end test harness for battery testing platform (React/ASP.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
+      - Contributed to CAN/UDS integration for BMS communication. Implemented Kafka consumer to consume sampled data from queue. Implemented data ingestion pipeline writing queued data to PostgreSQL entities.
+      - Built end-to-end test harness for battery testing platform (React/.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
+      # - ipsum
+      # - lorem
+      # - dolor
+      # - emmet
 
   - name: "Firmware for Battery test device, Userspace application to communicate with firmware device"
     affiliation: Arbin Instruments India Pvt. Ltd.
@@ -158,16 +203,15 @@ projects:
     highlights:
       - Contributed to C++ firmware code running on STM32 Cortex microcontroller.
       - Implemented state machines, co-operative scheduling between multiple threads. Implemented TCP servers to communicate packets on TCP/IP socket and Ethernet parser to parse incoming packets, assemble outgoing packets.
-      - Contributed to linux userspace application running on Cortex-A7 processor that interfaces with the iv firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
+      - Contributed to Linux userspace application running on Cortex-A7 processor that interfaces with the iv firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
 
   - name: "Notification service MVP in golang"
     # url: https://example.com/
     affiliation: Arbin Instruments India Pvt. Ltd. 
     startDate: 2024-09-26
-    endDate: 2024-09-15
+    endDate: 2024-11-15
     highlights:
-      - Designed and built a lightweight, scalable notification system that polls RabbitMQ, spawns workers based on queue depth, and sends messages via CLI interface.
-      - Implemented autoscaling logic and modular design to support future email/SMS/daemon integrations.
+      - Designed and developed a lightweight, scalable notification system that polls service running as a docker container, spawns workers based on queue depth, and publish messages via CLI interface. Implemented autoscaling logic depending on number of consumer-- email daemon integrations.
 
 skills:
   # - category: Soft Skills
@@ -176,40 +220,82 @@ skills:
   #     - Critical Thinking
   #     - Leadership
   #     - Technical Writing
-  - category: Programming
+  - category: Backend
     skills:
-      - bash, zsh
-      - GNU coreutils
-      - Rust, Tauri
-      - sockets, TCP/IP, HTTP
-      - C#, ASP.NET
-      - Javascript/Typescript
-      - SQL, PostgreSQL
-      - golang
-      - nginx
-      - Git, Github
+      - .NET 8
+      - C#
+      - Entity Framework Core
+      - PostgreSQL
+      - Kafka
+      - Redis
+      - RESTful APIs
+      - JWT Authentication
+      - TCP/IP sockets
+      - Go
+  - category: Frontend
+    skills:
+      - React
+      - TypeScript
+      - JavaScript
+      - Redux Toolkit
+      - Tailwind CSS
+      - Ant Design
+      - Tauri
+      - HTML/CSS
+      - React Router
+  - category: DevOps & Cloud
+    skills:
       - Docker
-      - Neovim
-      - Visual Studio Code
-      - Keil
+      - Docker Compose
+      - Terraform
+      - Azure Functions
+      - Nginx
+      - CI/CD
+      - GitHub Actions
+      - Bash scripting
+      - systemd
   - category: Embedded Systems
     skills:
-      - CAN, UDS protocol
-      - Battery Management Systems (BMS)
-      - Embedded linux
-
-  - category: Web Development
-    skills:
-      - HTML
-      - CSS
-      - React, Redux
-      - Tailwind CSS
-      - Antd
-      - Vite
-      - Vitest
-      - Playwright
-  # - category: Tools
+      - C/C++
+      - STM32
+      - RTOS
+      - CAN/UDS protocols
+      - BMS
+      - Embedded Linux
+      - ADC/DAC
+  # - category: Programming
   #   skills:
+  #     - bash, zsh
+  #     - GNU coreutils
+  #     - Rust, Tauri
+  #     - sockets, TCP/IP, HTTP
+  #     - C#, ASP.NET
+  #     - Javascript/Typescript
+  #     - SQL, PostgreSQL
+  #     - golang
+  #     - nginx
+  #     - Git, Github
+  #     - Docker
+  #     - React, Redux
+  #     - Neovim
+  #     - Visual Studio Code
+  #     - Keil
+  # - category: Embedded Systems
+  #   skills:
+  #     - CAN, UDS protocol
+  #     - Battery Management Systems (BMS)
+  #     - Embedded linux
+
+  - category: Tools
+    skills:
+      - Git
+      - GitHub
+      - Visual Studio Code
+      - Neovim
+      - Keil
+      - GDB
+      - BenchmarkDotNet
+      - OpenTelemetry
   # - category: BI & Data Analytics
   #   skills:
   #     - Microsoft Excel
@@ -220,13 +306,13 @@ skills:
   #     - Plotly
   #     - Altair
 
-languages:
-  - language: English
-    fluency: Business proficiency
-  - language: Marathi
-    fluency: Mother Tongue
-  - language: Hindi
-    fluency: Native proficiency
+# languages:
+#   - language: English
+#     fluency: Business proficiency
+#   - language: Marathi
+#     fluency: Mother Tongue
+#   - language: Hindi
+#     fluency: Native proficiency
 
 # interests:
 #   - Video Games

@@ -6,12 +6,12 @@
 #let uservars = (
     headingfont: "Crimson Pro", // Set font for headings
     bodyfont: "Tinos",   // Set font for body
-    fontsize: 9.5pt, // 10pt, 11pt, 12pt
+    fontsize: 9.1pt, // 10pt, 11pt, 12pt
     linespacing: 4pt,
     showAddress: true, // true/false Show address in contact info
     showNumber: true,  // true/false Show phone number in contact info
     headingsmallcaps: false,
-    sectionspacing: 4pt, // Space between sections
+    sectionspacing: 2.0pt, // Space between sections
 )
 
 // setrules and showrules can be overridden by re-declaring it here
@@ -26,6 +26,12 @@
 
 #let customrules(doc) = {
     // Add custom document style rules here
+    set page(                 // https://typst.app/docs/reference/layout/page
+        // paper: "us-letter",
+        // numbering: "1 / 1",
+        // number-align: center,
+        margin: 2.00cm,
+    )
 
     doc
 }
@@ -46,8 +52,9 @@
 
 #cvheading(cvdata, uservars)
 
+#cvsummary(cvdata)
 #cvwork(cvdata)
-#cvprojects(cvdata)
+// #cvprojects(cvdata)
 #cvskills(cvdata)
 #cveducation(cvdata)
 #cvaffiliations(cvdata)
