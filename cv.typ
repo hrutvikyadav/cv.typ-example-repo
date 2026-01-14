@@ -54,9 +54,9 @@
 
 #cvsummary(cvdata)
 #cvwork(cvdata)
-// #cvprojects(cvdata)
+#cvprojects(cvdata)
 #cvskills(cvdata)
-#cveducation(cvdata)
+// #cveducation(cvdata)
 #cvaffiliations(cvdata)
 #cvawards(cvdata)
 #cvcertificates(cvdata)

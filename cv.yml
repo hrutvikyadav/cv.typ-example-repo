@@ -18,7 +18,7 @@ personal:
       username: hrutvikyadav
       url: https://github.com/hrutvikyadav
 
-summary: "Full-stack engineer specializing in embedded systems integration with modern web technologies. Expertise in .NET 8 RESTful Web APIs, microservices, Entity Framework Core, PostgreSQL, React/TypeScript, Redux, C/C++ firmware (STM32, RTOS), and cloud infrastructure (Docker, Azure, CI/CD). Delivered production battery testing platforms for automotive manufacturers featuring real-time hardware communication, data acquisition services, and cross-platform deployment."
+summary: ".NET 8 RESTful Web APIs | Go microservices | Entity Framework Core | PostgreSQL | React/TypeScript | Rust | Docker, CI/CD.\nFull-stack engineer specializing in modern web services integration with embedded systems over TCP/IP sockets. Delivered production battery testing platforms for automotive manufacturers featuring curstom workflow execution services, real-time hardware integration, data acquisition services, and cross-platform deployment."
 
 work:
   - organization: Arbin Instruments India Pvt. Ltd.
@@ -29,32 +29,37 @@ work:
         startDate: 2022-08-08
         endDate: "present"
         highlights:
-          - Practiced Agile methodologies including sprint planning, daily standups, and retrospectives; tracked development progress using Jira
-          - Lead development of real-time monitoring dashboards using React, Typescript, Tauri. Peer reviewed code.
-          - Designed React application architecture using modern React patterns like Layout pattern, custom hooks, memoization, lazy loading, context management
-          - Built complex dashboard visualizations for test data; implemented progress tracking, live graphs, status monitoring
-          - Developed a text editor react component using react-ace, with custom completions to assist users with writing arbin's custom scripting language, improving user engagement by 30%
-          - Implemented non-blocking expression validation with real-time error detection using ncalc.js library
-          - Implemented custom caching mechanism to support expression validation for large number of custom variables defined in arbin's scripting language.
-          - Used popular open source solutions; Ant Design, Tailwind CSS for styling, React Router for client side routing, Redux for state management, Redux Toolkit for web api integration.
-          - Developed reports visualization for huge test data in pagination components. Implemented huge test data report generation functionality using Azure functions, so that user can perform operations in a non blocking manner. Implemented data archival using Azure functions that run on schedule to cleanup space.
-          - Built unit test suite with vitest and react-testing-library achieving 75% code coverage.
-          - Built CI/CD pipelines from scratch, automated unit testing, self hosted deployment, Nginx configuration with TLS/SSL
-          - Managed production deployments for solutions used by major automotive manufacturers in India
-          - Managed Azure cloud deployments using Docker Compose for containerized microservices
-          - Provisioned cloud infrastructure with Terraform for global accessibility and scalability
-          - Developed cross-platform .NET 8 services interfacing with firmware via custom socket based protocols.
-          - Designed event-driven architecture for .NET data processing service, improving accuracy by 40% for high-rate sampled data
-          - Designed RESTful web APIs with JWT authentication, comprehensive error handling, and structured logging for client applications - Implemented event-driven architecture with Kafka event sourcing replicated across multiple clusters
-          - Implemented data persistence layer using Entity Framework ORM with PostgreSQL—designed schema using code-first approach with data annotations
-          - Achieved Performance optimization, benchmarked caching strategies using BenchmarkDotNet, evaluated Redis vs in-memory solutions, implemented optimized concurrent dictionary caching based on profiling results.
-          - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of OpenTelemetry+LGTM for better MTTR.
-          - Contributed to CAN/UDS integration for BMS communication. Implemented Kafka consumer to consume sampled data from queue. Implemented data ingestion pipeline writing queued data to PostgreSQL entities.
-          - Built end-to-end integration test harness for battery testing platform (React/.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
-          - Contributed to C++ firmware code running on STM32 Cortex microcontroller.
-          - Implemented state machines, co-operative scheduling between multiple threads. Implemented TCP servers to communicate packets on TCP/IP socket and Ethernet parser to parse incoming packets, assemble outgoing packets.
-          - Developed Linux userspace application for Cortex-A7 processor that interfaces with the IV(current-voltage) firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
-          - Designed and developed a lightweight, scalable notification system that polls service running as a docker container, spawns workers based on queue depth, and publish messages via CLI interface. Implemented autoscaling logic depending on number of consumer-- email daemon integrations.
+          - Practiced Agile methodologies including sprint planning, daily standups, and retrospectives. Collaborated with cross-functional teams, tracked development progress using Jira. Peer reviewed code.
+          - Developed .NET services and Go microservices to implement EOL customer requirements across the globe.
+          - Lead development of real-time monitoring dashboards using React, Typescript, Tauri(Rust).
+          - Developed performant rust middleware implementation that parses json data from ,NET service, serialize using Serde to stores huge data in chunks of byte improving data query performance by 70%.
+          - Implemented IPC between rust and react using tauriIPC, offloading heavy data transformations to performant rust implementation.
+          # - Designed and developed a lightweight, scalable notification system that polls service running as a docker container, spawns workers based on queue depth, and publish messages via CLI interface. Implemented autoscaling logic depending on number of consumer-- email daemon integrations.
+
+          # - Designed React application architecture using modern React patterns like Layout pattern, custom hooks, memoization, lazy loading, context management
+          # - Built complex dashboard visualizations for test data; implemented progress tracking, live graphs, status monitoring
+          # - Developed a text editor react component using react-ace, with custom completions to assist users with writing arbin's custom scripting language, improving user engagement by 30%
+          # - Implemented non-blocking expression validation with real-time error detection using ncalc.js library
+          # - Implemented custom caching mechanism to support expression validation for large number of custom variables defined in arbin's scripting language.
+          # - Used popular open source solutions; Ant Design, Tailwind CSS for styling, React Router for client side routing, Redux for state management, Redux Toolkit for web api integration.
+          # - Developed reports visualization for huge test data in pagination components. Implemented huge test data report generation functionality using Azure functions, so that user can perform operations in a non blocking manner. Implemented data archival using Azure functions that run on schedule to cleanup space.
+          # - Built unit test suite with vitest and react-testing-library achieving 75% code coverage.
+          # - Built CI/CD pipelines from scratch, automated unit testing, self hosted deployment, Nginx configuration with TLS/SSL
+          # - Managed production deployments for solutions used by major automotive manufacturers in India
+          # - Managed Azure cloud deployments using Docker Compose for containerized microservices
+          # - Provisioned cloud infrastructure with Terraform for global accessibility and scalability
+          # - Developed cross-platform .NET 8 services interfacing with firmware via custom socket based protocols.
+          # - Designed event-driven architecture for .NET data processing service, improving accuracy by 40% for high-rate sampled data
+          # - Designed RESTful web APIs with JWT authentication, comprehensive error handling, and structured logging for client applications - Implemented event-driven architecture with Kafka event sourcing replicated across multiple clusters
+          # - Implemented data persistence layer using Entity Framework ORM with PostgreSQL—designed schema using code-first approach with data annotations
+          # - Achieved Performance optimization, benchmarked caching strategies using BenchmarkDotNet, evaluated Redis vs in-memory solutions, implemented optimized concurrent dictionary caching based on profiling results.
+          # - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of OpenTelemetry+LGTM for better MTTR.
+          # - Contributed to CAN/UDS integration for BMS communication. Implemented Kafka consumer to consume sampled data from queue. Implemented data ingestion pipeline writing queued data to PostgreSQL entities.
+          # - Built end-to-end integration test harness for battery testing platform (React/.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
+          # - Contributed to C++ firmware code running on STM32 Cortex microcontroller.
+          # - Implemented state machines, co-operative scheduling between multiple threads. Implemented TCP servers to communicate packets on TCP/IP socket and Ethernet parser to parse incoming packets, assemble outgoing packets.
+          # - Developed Linux userspace application for Cortex-A7 processor that interfaces with the IV(current-voltage) firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
+          # - Designed and developed a lightweight, scalable notification system that polls service running as a docker container, spawns workers based on queue depth, and publish messages via CLI interface. Implemented autoscaling logic depending on number of consumer-- email daemon integrations.
 
   # - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
   #   url: https://example.com
@@ -158,60 +163,69 @@ education:
 #     url: https://example.com
 
 projects:
+  - name: "Test Management golang microservice"
+    # url: https://example.com/
+    affiliation: Arbin Instruments India Pvt. Ltd. 
+    startDate: 2024-09-26
+    endDate: 2025-11-15
+    highlights:
+      - Developed 8event-driven microservice8 for Test Management workflow to *satisfy generalized global customer requirements*.
+      - Deployed as a container with *docker compose* along with other arbin services for _*scalability, isolation and portability*_.
+      - Worked on *service to service integration* over `https`/`REST`, `TCP` protocols. Implemented *state machines* to _track complex application state_.
+      - Implemented *data persistence using `PostgreSQL` and report generation* to _help clients with QA/audit purposes_.
+
+  - name: ".NET REST API EOL execution service."
+    affiliation: Arbin Instruments India Pvt. Ltd.
+    startDate: 2022-09-07
+    endDate: 2024-06-14
+    highlights:
+      - Developed cross-platform .NET 8 EOL test execution *REST API service* for major *automotive industry giants* in India, to help them _execute customized battery testing workflows_.
+      # - Designed event-driven architecture for .NET data processing service, improving accuracy by 40% for high-rate sampled data
+      - Designed *request-response architecture* with _`JWT` authentication, comprehensive error handling, and structured logging_. #for backend service.
+      - Implemented *data persistence layer* using `Entity Framework ORM` with `PostgreSQL`—designed schema using *code-first* approach with *data annotations*.
+      - Implemented *data ingestion pipeline* to _write binary data from *circular queue* to *PostgreSQL*_ entities.
+      - Achieved *performance optimization*, benchmarked caching strategies using `BenchmarkDotNet`, _evaluated Redis vs in-memory solutions_, implemented optimized _*dictionary caching* based on profiling results_.
+      - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed _integration of OpenTelemetry+LGTM for better MTTR_.
+      - Built *end-to-end test harness* for battery testing platform (React/.NET/PostgreSQL), with `Python`/`bash` scripting to _validate end-to-end user workflows_.
+
   - name: "Dashboard client application integrated with RESTful api service."
     affiliation: Arbin Instruments India Pvt. Ltd.
     startDate: 2022-11-15
-    endDate: Present
+    endDate: 2023-12-21
     highlights:
-      - Lead development of real-time monitoring dashboards using React, Typescript, Tauri. Peer reviewed code.
-      - Built complex dashboard visualizations for test data-- progress tracking, live graphs, status monitoring
-      - Implemented modern React patterns-- custom hooks, memoization, lazy loading, context management
-      - Developed a text editor react component using react-ace, with custom completions to assist users with writing arbin's custom scripting language. Implemented intelligent functionality of fast expression validation, error detection, instant feedback using ncalc.js library without blocking user input. Implemented custom caching mechanism to support expression validation for large number of custom variables defined in arbin's scripting language.
-      - Used popular open source solutions-- Ant Design, Tailwind CSS, React Router, Redux for state management, Redux Toolkit for api integration. Developed reports visualization for huge test data in pagination components. Implemented huge test data report generation functionality using Azure functions, so that user can perform operations in a non blocking manner. Implemented data archival using Azure functions that run on schedule to cleanup space.
+      - Designed `React` application architecture using *modern React patterns* like Layout pattern, custom hooks, memoization, lazy loading, context management. Built *unit test suite* with `vitest` and `react-testing-library` achieving *75% code coverage*.
+      - Built *complex dashboard visualizations* for test data; implemented progress tracking, live graphs, status monitoring
+      - Developed a *text editor react component* using `react-ace`, with custom completions to _assist users with writing arbin's custom scripting language_, improving user engagement by 30%
+      - Implemented non-blocking expression validation with real-time error detection using `ncalc.js` library. Implemented *custom caching mechanism* to support expression validation _for *large number of custom variables* defined in arbin's scripting language_.
+      - Used *popular open source solutions*; `Ant Design`, `Tailwind CSS` for styling, `React Router` for client side routing, `Redux` for state management, `Redux Toolkit` for web api integration.
+      - Developed reports *visualization for huge test data* in *pagination* components.
+      # - Implemented huge test data report generation functionality using Azure functions, so that user can perform operations in a non blocking manner.
+      # - Implemented data archival using Azure functions that run on schedule to cleanup space.
+      # - Built *unit test suite* with `vitest` and `react-testing-library` achieving *75% code coverage*.
 
   - name: "DevOps & Infrastructure"
     affiliation: Arbin Instruments India Pvt. Ltd.
     startDate: 2023-07-08
     endDate: Present
     highlights:
-      - Built CI/CD pipelines from scratch-- automated testing → self hosted deployment → Nginx configuration with TLS/SSL
-      - Managed production deployments for solutions used by major automotive manufacturers in India
-      - Managed Azure cloud deployments using Docker Compose for containerized microservices
-      - Provisioned cloud infrastructure with Terraform for global accessibility and scalability
+      - Built `CI/CD` pipelines from scratch, automated unit testing, self hosted deployment, `Nginx` configuration with *TLS/SSL*.
+      - Managed *production deployments* for solutions used by *major automotive manufacturers* in India
+      - Provisioned Azure cloud deployments using `Docker` for *containerized microservices*.
+      # - Provisioned cloud infrastructure with Terraform for global accessibility and scalability
 
-  - name: ".NET backend services."
-    affiliation: Arbin Instruments India Pvt. Ltd.
-    startDate: 2022-09-07
-    endDate: Present
-    highlights:
-      - Developed cross-platform .NET services interfacing with firmware via custom socket based protocols.
-      - Designed RESTful APIs consumed by  client applications with JWT authentication with proper error handling and logging. Implemented event-driven architecture-- event sourcing to Kafka queue, replicated across multiple clusters
-      - Implemented data persistence layer using Entity Framework ORM with PostgreSQL—designed schema using code-first approach with data annotations
-      - Performance optimization-- benchmarked caching strategies using BenchmarkDotNet, evaluated Redis vs in-memory solutions, implemented optimized concurrent dictionary caching based on profiling results.
-      - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed integration of OpenTelemetry+LGTM for better MTTR.
-      - Contributed to CAN/UDS integration for BMS communication. Implemented Kafka consumer to consume sampled data from queue. Implemented data ingestion pipeline writing queued data to PostgreSQL entities.
-      - Built end-to-end test harness for battery testing platform (React/.NET/PostgreSQL), with Python/bash scripting to validate end-to-end user workflows.
       # - ipsum
       # - lorem
       # - dolor
       # - emmet
 
-  - name: "Firmware for Battery test device, Userspace application to communicate with firmware device"
-    affiliation: Arbin Instruments India Pvt. Ltd.
-    startDate: 2022-11-15
-    endDate: Present
-    highlights:
-      - Contributed to C++ firmware code running on STM32 Cortex microcontroller.
-      - Implemented state machines, co-operative scheduling between multiple threads. Implemented TCP servers to communicate packets on TCP/IP socket and Ethernet parser to parse incoming packets, assemble outgoing packets.
-      - Contributed to Linux userspace application running on Cortex-A7 processor that interfaces with the iv firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
-
-  - name: "Notification service MVP in golang"
-    # url: https://example.com/
-    affiliation: Arbin Instruments India Pvt. Ltd. 
-    startDate: 2024-09-26
-    endDate: 2024-11-15
-    highlights:
-      - Designed and developed a lightweight, scalable notification system that polls service running as a docker container, spawns workers based on queue depth, and publish messages via CLI interface. Implemented autoscaling logic depending on number of consumer-- email daemon integrations.
+  # - name: "Firmware for Battery test device, Userspace application to communicate with firmware device"
+  #   affiliation: Arbin Instruments India Pvt. Ltd.
+  #   startDate: 2022-11-15
+  #   endDate: Present
+  #   highlights:
+  #     - Contributed to C++ firmware code running on STM32 Cortex microcontroller.
+  #     - Implemented state machines, co-operative scheduling between multiple threads. Implemented TCP servers to communicate packets on TCP/IP socket and Ethernet parser to parse incoming packets, assemble outgoing packets.
+  #     - Contributed to Linux userspace application running on Cortex-A7 processor that interfaces with the iv firmware. Used posix threads that parse ethernet packets, run test schedule state machine, sample data using high resolution ADC/DAC.
 
 skills:
   # - category: Soft Skills
@@ -228,10 +242,11 @@ skills:
       - PostgreSQL
       - Kafka
       - Redis
-      - RESTful APIs
+      - REST APIs
       - JWT Authentication
       - TCP/IP sockets
       - Go
+      - Rust
   - category: Frontend
     skills:
       - React
@@ -254,15 +269,15 @@ skills:
       - GitHub Actions
       - Bash scripting
       - systemd
-  - category: Embedded Systems
-    skills:
-      - C/C++
-      - STM32
-      - RTOS
-      - CAN/UDS protocols
-      - BMS
-      - Embedded Linux
-      - ADC/DAC
+  # - category: Embedded Systems
+  #   skills:
+  #     - C/C++
+  #     - STM32
+  #     - RTOS
+  #     - CAN/UDS protocols
+  #     - BMS
+  #     - Embedded Linux
+  #     - ADC/DAC
   # - category: Programming
   #   skills:
   #     - bash, zsh
