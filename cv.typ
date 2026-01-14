@@ -6,7 +6,7 @@
 #let uservars = (
     headingfont: "Crimson Pro", // Set font for headings
     bodyfont: "Tinos",   // Set font for body
-    fontsize: 9.1pt, // 10pt, 11pt, 12pt
+    fontsize: 9.4pt, // 10pt, 11pt, 12pt
     linespacing: 4pt,
     showAddress: true, // true/false Show address in contact info
     showNumber: true,  // true/false Show phone number in contact info
@@ -30,7 +30,7 @@
         // paper: "us-letter",
         // numbering: "1 / 1",
         // number-align: center,
-        margin: 2.00cm,
+        margin: 1.20cm,
     )
 
     doc

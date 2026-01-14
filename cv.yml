@@ -18,7 +18,7 @@ personal:
       username: hrutvikyadav
       url: https://github.com/hrutvikyadav
 
-summary: ".NET 8 RESTful Web APIs | Go microservices | Entity Framework Core | PostgreSQL | React/TypeScript | Rust | Docker, CI/CD.\nFull-stack engineer specializing in modern web services integration with embedded systems over TCP/IP sockets. Delivered production battery testing platforms for automotive manufacturers featuring curstom workflow execution services, real-time hardware integration, data acquisition services, and cross-platform deployment."
+summary: ".NET 8 RESTful Web APIs | Go microservices | Entity Framework Core | PostgreSQL | React/TypeScript | Rust | Docker, CI/CD.\nFull-stack engineer specializing in modern web services integration with embedded systems over TCP/IP sockets.\nDelivered production battery testing platforms for major automotive manufacturers featuring curstom workflow execution services, real-time hardware integration, data acquisition services, and cross-platform deployment."
 
 work:
   - organization: Arbin Instruments India Pvt. Ltd.
@@ -29,11 +29,11 @@ work:
         startDate: 2022-08-08
         endDate: "present"
         highlights:
-          - Practiced Agile methodologies including sprint planning, daily standups, and retrospectives. Collaborated with cross-functional teams, tracked development progress using Jira. Peer reviewed code.
-          - Developed .NET services and Go microservices to implement EOL customer requirements across the globe.
-          - Lead development of real-time monitoring dashboards using React, Typescript, Tauri(Rust).
-          - Developed performant rust middleware implementation that parses json data from ,NET service, serialize using Serde to stores huge data in chunks of byte improving data query performance by 70%.
-          - Implemented IPC between rust and react using tauriIPC, offloading heavy data transformations to performant rust implementation.
+          - Practiced *Agile methodologies* including sprint planning, daily standups, and retrospectives. Collaborated with *cross-functional teams*, tracked development progress using *Jira* and *delivered production grade services across the globe*.
+          - Developed *.NET services and Go microservices* to implement EOL customer requirements. Participated in peer *code reviews*.
+          - Lead development of *real-time monitoring dashboards using React*, Typescript, Tauri(Rust).
+          - Developed performant *rust middleware implementation* that parses json data from ,NET service, serialize using Serde to stores huge data in chunks of bytes *_improving data query performance by 70%_*.
+          - Implemented *`IPC`* between _rust and react using tauriIPC_, offloading heavy data transformations to *performant rust implementation*.
           # - Designed and developed a lightweight, scalable notification system that polls service running as a docker container, spawns workers based on queue depth, and publish messages via CLI interface. Implemented autoscaling logic depending on number of consumer-- email daemon integrations.
 
           # - Designed React application architecture using modern React patterns like Layout pattern, custom hooks, memoization, lazy loading, context management
@@ -163,16 +163,16 @@ education:
 #     url: https://example.com
 
 projects:
-  - name: "Test Management golang microservice"
-    # url: https://example.com/
-    affiliation: Arbin Instruments India Pvt. Ltd. 
-    startDate: 2024-09-26
-    endDate: 2025-11-15
+  - name: "Custom Neovim configuration"
+    url: https://github.com/hrutvikyadav/nt4
+    affiliation: Personal Project
+    startDate: 2023-07-08
+    endDate: Present
     highlights:
-      - Developed 8event-driven microservice8 for Test Management workflow to *satisfy generalized global customer requirements*.
-      - Deployed as a container with *docker compose* along with other arbin services for _*scalability, isolation and portability*_.
-      - Worked on *service to service integration* over `https`/`REST`, `TCP` protocols. Implemented *state machines* to _track complex application state_.
-      - Implemented *data persistence using `PostgreSQL` and report generation* to _help clients with QA/audit purposes_.
+      - Developed and maintained my *own `neovim` configuration from scratch*
+      - Customized _*language servers*_ (*lua_ls, gopls, rust-analyzer, tinymist, omnisharp, ahk2, jsonls, harper_ls*) based on personal preferences.
+      - Developed my own *neovim plugin* to *integrate taskwarrior, bugwarrior, timewarrior* with *telescope* to set up my own _issue/time tracking system_.
+      - Customized popular open source plugins (*Telescope, Harpoon, and many others*) to fit personal needs.
 
   - name: ".NET REST API EOL execution service."
     affiliation: Arbin Instruments India Pvt. Ltd.
@@ -185,8 +185,20 @@ projects:
       - Implemented *data persistence layer* using `Entity Framework ORM` with `PostgreSQL`—designed schema using *code-first* approach with *data annotations*.
       - Implemented *data ingestion pipeline* to _write binary data from *circular queue* to *PostgreSQL*_ entities.
       - Achieved *performance optimization*, benchmarked caching strategies using `BenchmarkDotNet`, _evaluated Redis vs in-memory solutions_, implemented optimized _*dictionary caching* based on profiling results_.
-      - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden. Proposed _integration of OpenTelemetry+LGTM for better MTTR_.
+      - Proposed and implemented expression evaluation/parsing library, delegating non domain related code, reducing maintainer burden.
+      - Proposed _integration of OpenTelemetry+LGTM_, *improving MTTR by 30%*.
       - Built *end-to-end test harness* for battery testing platform (React/.NET/PostgreSQL), with `Python`/`bash` scripting to _validate end-to-end user workflows_.
+
+  - name: "Test Management golang microservice"
+    # url: https://example.com/
+    affiliation: Arbin Instruments India Pvt. Ltd. 
+    startDate: 2024-09-26
+    endDate: 2025-11-15
+    highlights:
+      - Developed *event-driven microservice* for Test Management workflow to *satisfy generalized global customer requirements*.
+      - Deployed as a container with *docker compose* along with other arbin services for _*scalability, isolation and portability*_.
+      - Worked on *service to service integration* over `https`/`REST`, `TCP` protocols. Implemented *state machines* to _track complex application state_.
+      - Implemented *data persistence (with `PostgreSQL`)*, report generation to _help clients with QA/audit purposes_.
 
   - name: "Dashboard client application integrated with RESTful api service."
     affiliation: Arbin Instruments India Pvt. Ltd.
@@ -197,8 +209,9 @@ projects:
       - Built *complex dashboard visualizations* for test data; implemented progress tracking, live graphs, status monitoring
       - Developed a *text editor react component* using `react-ace`, with custom completions to _assist users with writing arbin's custom scripting language_, improving user engagement by 30%
       - Implemented non-blocking expression validation with real-time error detection using `ncalc.js` library. Implemented *custom caching mechanism* to support expression validation _for *large number of custom variables* defined in arbin's scripting language_.
-      - Used *popular open source solutions*; `Ant Design`, `Tailwind CSS` for styling, `React Router` for client side routing, `Redux` for state management, `Redux Toolkit` for web api integration.
-      - Developed reports *visualization for huge test data* in *pagination* components.
+      # - Used *popular open source solutions*; `Ant Design`, `Tailwind CSS` for styling, `React Router` for client side routing, `Redux` for state management, `Redux Toolkit` for web api integration.
+      # - Developed reports *visualization for huge test data* in *pagination* components.
+
       # - Implemented huge test data report generation functionality using Azure functions, so that user can perform operations in a non blocking manner.
       # - Implemented data archival using Azure functions that run on schedule to cleanup space.
       # - Built *unit test suite* with `vitest` and `react-testing-library` achieving *75% code coverage*.
@@ -208,7 +221,7 @@ projects:
     startDate: 2023-07-08
     endDate: Present
     highlights:
-      - Built `CI/CD` pipelines from scratch, automated unit testing, self hosted deployment, `Nginx` configuration with *TLS/SSL*.
+      - Built *`CI/CD` pipelines from scratch*, automated unit testing, self hosted deployment, `Nginx` configuration with *TLS/SSL*.
       - Managed *production deployments* for solutions used by *major automotive manufacturers* in India
       - Provisioned Azure cloud deployments using `Docker` for *containerized microservices*.
       # - Provisioned cloud infrastructure with Terraform for global accessibility and scalability
